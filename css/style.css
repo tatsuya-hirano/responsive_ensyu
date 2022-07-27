@@ -1,0 +1,172 @@
+.responsive {
+  @media screen and (max-width: 1200px) 
+  @media screen and (max-width: 768px)
+  @media screen and (max-width: 480px)
+}
+
+.first {
+  color: white;
+  font-family: "Shippori Mincho", serif;
+}
+
+.firstview {
+  position: relative;
+  display: flex;
+  width: 1200px;
+  height: 600px;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  position: absolute;
+  display: flex;
+  color: white;
+  z-index: 0;
+}
+
+.header-ttl {
+  display: flex;
+  font-size: 25px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.header-nav-list {
+  display: flex;
+  font-size: 15px;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.firstview-messe1 {
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  z-index: 0;
+}
+
+.firstview-messe2 {
+  position: absolute;
+  margin-top: -220px;
+  margin-left: 130px;
+  color: white;
+  font-size: 22px;
+  z-index: 0;
+}
+
+.topics-position{
+  position: relative;
+  display: inline-flex;
+  color:white;
+  font-family: "Shippori Mincho", serif;
+}
+
+.topics-messe {
+  position: absolute;
+  margin-top: 150px;
+}
+
+.topics-cat {
+  font-size: 26px;
+}
+
+.style-catch {
+  position: relative;
+  width: 1120px;
+  height:1100px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 80px;
+  background: linear-gradient( #070707, #f5f4f5);
+  font-family: "Shippori Mincho", serif;
+}
+
+
+.style-content {
+  position: absolute;
+  column-count: 3;
+  width: 85%;
+  margin-top: -1000px;
+  padding-left: 80px;
+  break-inside: avoid;
+}
+
+.make {
+  position: relative;
+  width: 1200px;
+  color: white;
+  background-color: black;
+  font-family: "Shippori Mincho", serif;
+}
+
+.make-img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.make-text {
+  position: absolute;
+  margin-top: -550px;
+  margin-left: 500px;
+  font-size: 20px;
+}
+
+.make-catch {
+  position: absolute;
+  margin-top: -520px;
+  margin-left: 500px;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.make-text2 {
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 500px;
+  font-size: 15px;
+  line-height: 30px;  
+}
+
+.make-text3 {
+  position: absolute;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.About-page {
+  position: relative;
+  width: 200px;
+  padding: 10px 0;
+  color: white;
+  border-style: solid;
+  text-align: center;
+  margin-top: 100px;
+  display: block;
+}
+
+.footer {
+  width: 1200px;
+  height: 30px;
+  color: white;
+  background: black;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-left: 550px;
+}
